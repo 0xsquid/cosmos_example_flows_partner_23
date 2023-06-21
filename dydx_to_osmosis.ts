@@ -19,7 +19,7 @@ if (!mnemonic)
   throw new Error("No private key provided, pls include in .env file");
 
 (async () => {
-  const baseUrl = "http://localhost:3000";
+  const baseUrl = "https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app";
 
   const squid = new Squid({
     baseUrl: baseUrl,
