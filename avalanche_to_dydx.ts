@@ -6,11 +6,12 @@ dotenv.config();
 const fromChainId = 43113; //avalanche fuji testnet
 const fromToken = "avax";
 const fromAmount = ethers.utils.parseUnits(".05", "18").toString();
-const toChainId = "dydxprotocol-testnet";
+const toChainId = "dydx-testnet-2";
 const toToken = "usdc";
 const addressDydx = "dydx1zqnudqmjrgh9m3ec9yztkrn4ttx7ys64qa96wl";
 const evmFallBackAddress = "0xb13CD07B22BC5A69F8500a1Cb3A1b65618d50B22"; //your adderss on avalanche for failures on source chain
-const baseUrl = "https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app";
+const baseUrl =
+  "https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app";
 
 //const baseUrl =
 //  "https://squid-api-git-feat-cosmos-maintestnet-0xsquid.vercel.app";
